@@ -68,11 +68,22 @@ Adopts the CRISP-DM framework (Cross-Industry Standard Process for Data Mining),
 
 ![Screenshot 2024-10-24 141540](https://github.com/user-attachments/assets/d837e206-0aba-4244-8f45-689c9b8016bc)
 
-    ▪️ The dataset consists of 16,998 records and 21 variables, including 1 ID variable, 19 input variables, and 1 binary target variable (Attrition Flag).
+    ▪️ The dataset consists of 16,998 records and 21 variables, including 1 ID variable, 19 input variables, and 1 binary target variable ("Attrition_Flag").
     
     ▪️ Input variables cover customer demographics, transaction history, and banking relationships (e.g., Total Transaction Count, Credit Limit, Total Revolving Balance).
     
     ▪️ A detailed breakdown of the variables (nominal, ordinal, interval) is provided, ensuring a comprehensive understanding of the dataset's structure.
+
+
+#### 📌 Exploratory Data Analysis (EDA)
+
+StatExplore was used to examine class and interval variables.
+
+    ▪️ No missing values were found, and most variables follow a normal distribution except for five that showed skewness ("Avg_Open_To_Buy", "Credit_Limit", "Total_Amt_Chng_Q4_Q1", "Total_Ct_Chng_Q4_Q1", "Total_Trans_Amt").
+    
+    ▪️ Significant class imbalance was noted in the target variable, with 83.93% retained customers and 16.07% churned customers.
+
+
 
 
 
