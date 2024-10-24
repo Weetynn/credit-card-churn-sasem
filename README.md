@@ -8,7 +8,7 @@ This study addresses the pressing issue of customer churn in credit card service
 
 ### 1.0 Problem Analysis
 
-#### 📌 Problem Statements
+#### 📌 1.1 Problem Statements
 
     ▪️ Credit card customer churn is a growing issue for banks, where losing customers results in both direct revenue loss and reputational damage.
     
@@ -17,7 +17,7 @@ This study addresses the pressing issue of customer churn in credit card service
     ▪️ Customer churn signals potential problems in a bank’s processes, customer service, or competitive offerings, necessitating effective monitoring and prediction techniques to manage churn rates.
     
 
-#### 📌 Objectives of the Study
+#### 📌 1.2 Objectives of the Study
 
     ▪️ Develop a predictive model using machine learning to forecast customer churn in the credit card domain.
     
@@ -26,7 +26,7 @@ This study addresses the pressing issue of customer churn in credit card service
     ▪️ Equip bank managers with actionable insights and recommendations for improving retention rates by predicting which customers are likely to churn and why.
 
   
-#### 📌 Scope of the Study
+#### 📌 1.3 Scope of the Study
 
     ▪️ Focuses on credit card churn within the banking sector.
     
@@ -37,7 +37,7 @@ This study addresses the pressing issue of customer churn in credit card service
     ▪️ The study limits its predictive modeling to tree-based models (Decision Tree, Extreme Gradient Boosting, High-Performance Tree, High-Performance Forest) and neural networks.
     
 
-#### 📌 Methodology of the Study
+#### 📌 1.4 Methodology of the Study
 
 Adopts the CRISP-DM framework (Cross-Industry Standard Process for Data Mining), focusing on five phases:
 
@@ -55,7 +55,7 @@ Adopts the CRISP-DM framework (Cross-Industry Standard Process for Data Mining),
 
 ### 2.0 Solution Development
 
-#### 📌 Data Pipeline in SAS Enterprise Miner
+#### 📌 2.1 Data Pipeline in SAS Enterprise Miner
 
 ![Screenshot 2024-10-24 141242](https://github.com/user-attachments/assets/35bfb374-51c0-4ae2-8287-679fa97e878f)
 
@@ -64,7 +64,7 @@ Adopts the CRISP-DM framework (Cross-Industry Standard Process for Data Mining),
     ▪️ The data pipeline includes several key steps: data transformation, undersampling, and data partitioning into training and validation sets before modeling and evaluation.
 
 
-#### 📌 Metadata of Dataset
+#### 📌 2.2 Metadata of Dataset
 
 ![Screenshot 2024-10-24 141540](https://github.com/user-attachments/assets/d837e206-0aba-4244-8f45-689c9b8016bc)
 
@@ -75,7 +75,7 @@ Adopts the CRISP-DM framework (Cross-Industry Standard Process for Data Mining),
     ▪️ A detailed breakdown of the variables (nominal, ordinal, interval) is provided, ensuring a comprehensive understanding of the dataset's structure.
 
 
-#### 📌 Exploratory Data Analysis (EDA)
+#### 📌 2.3 Exploratory Data Analysis (EDA)
 
 StatExplore was used to examine class and interval variables:
 
@@ -91,7 +91,7 @@ MultiPlot Analysis explored the relationship between variables and churn. Key fi
     ▪️ Lower credit utilization and fewer transactions were linked to higher churn.
 
 
-#### 📌 Data Preparation
+#### 📌 2. 4Data Preparation
 
 Key steps included:
 
@@ -106,7 +106,7 @@ Key steps included:
     ▪️ Evaluation: Models are evaluated using metrics such as F1 score, precision, recall, specificity, sensitivity, misclassification rate, and ROC/AUC curve analysis.
     
 
-#### 📌 Predictive Modeling
+#### 📌 2.5 Predictive Modeling
 
 A total of 10 models were developed, including five tree-based models and five neural network models with specific parameter tuning.
 
@@ -141,7 +141,7 @@ A total of 10 models were developed, including five tree-based models and five n
     ▪️ Among neural networks, the standard neural network model performed best, with a misclassification rate of 9.52% but was outperformed by Boost2 in terms of overall performance.
 
 
-#### 📌  Model Interpretation 
+#### 📌  2.6 Model Interpretation 
 
 Interpretation and Recommendations (Tree-Based Models):
 
@@ -163,14 +163,14 @@ Interpretation and Recommendations (Neural Network Models)
 
 ### 3.0 Conclusion
 
-#### 📌 Key Findings
+#### 📌 3. 1 Key Findings
 
     ▪️ The Gradient Boosting (Boost2) model performed the best among all models, with the lowest misclassification rate and a good balance between precision and recall.
     
     ▪️ Both tree-based models and neural networks identified the same top four factors influencing churn: "LOG_Total_Trans_Amt", "Total_Trans_Ct", "Total_Revolving_Bal", "LOG_Total_Ct_Chng_Q4_Q1"
     
 
-#### 📌 Recommendations
+#### 📌 3.2 Recommendations
 
     ▪️ Implement personalized rewards for customers with higher transaction volumes and counts to incentivize continued engagement.
     
@@ -181,7 +181,7 @@ Interpretation and Recommendations (Neural Network Models)
     ▪️ Focus on building stronger relationships with long-standing or frequent customers through tailored benefits and programs.
     
 
-#### 📌 Areas for Future Study
+#### 📌 3.3 Areas for Future Study
 
 Further research is recommended to investigate the differing results between models, particularly the fifth important variable:
 
