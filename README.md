@@ -134,6 +134,9 @@ Neural Network Models:
 
     ▪️ The fourth High-Performance Neural Network (HP Neural 4) model had 10 hidden layers, 3 hidden neurons, and ran for 1000 iterations with 20 tries for further optimization.
 
+Best Performing Model:
+
+    ▪️ Among all the models, Gradient Boosting (Boost2) had the lowest misclassification rate and the highest recall, making it the top-performing model overall.
 
 
 
