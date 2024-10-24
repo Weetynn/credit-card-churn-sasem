@@ -168,6 +168,7 @@ Interpretation and Recommendations (Neural Network Models)
     ▪️ The Gradient Boosting (Boost2) model performed the best among all models, with the lowest misclassification rate and a good balance between precision and recall.
     
     ▪️ Both tree-based models and neural networks identified the same top four factors influencing churn: "LOG_Total_Trans_Amt", "Total_Trans_Ct", "Total_Revolving_Bal", "LOG_Total_Ct_Chng_Q4_Q1"
+    
 
 #### 📌 Recommendations
 
@@ -178,6 +179,20 @@ Interpretation and Recommendations (Neural Network Models)
     ▪️ Introduce credit management programs to help customers manage revolving balances and avoid excessive churn risks.
     
     ▪️ Focus on building stronger relationships with long-standing or frequent customers through tailored benefits and programs.
+    
+
+#### 📌 Areas for Future Study
+
+Further research is recommended to investigate the differing results between models, particularly the fifth important variable:
+
+    ▪️ Neural Networks identified Total_Relationship_Count as the fifth most important factor.
+    
+    ▪️ Tree-Based Models (Boost2) identified LOG_Total_Amt_Chng_Q4_Q1 as the fifth most important factor.
+
+    ▪️ This difference suggests further analysis is needed to understand the role each variable plays in predicting churn.
+
+
+
 
 
 
