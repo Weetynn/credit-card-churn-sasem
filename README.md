@@ -104,6 +104,35 @@ Key steps included:
     ▪️ Data partitioning with a 70-30 train-test split to prepare for model building.
     
     ▪️ Evaluation: Models are evaluated using metrics such as F1 score, precision, recall, specificity, sensitivity, misclassification rate, and ROC/AUC curve analysis.
+    
+
+#### 📌 Predictive Modeling
+
+A total of 10 models were developed, including five tree-based models and five neural network models with specific parameter tuning.
+
+Tree-Based Models:
+
+    ▪️ A Decision Tree model was built using a significance level of 0.2, with a maximum branch of 2, maximum depth of 6, and a minimum leaf size of 5.
+    
+    ▪️ The first Gradient Boosting (Boost1) model was configured with 5 iterations, maximum branch of 2, maximum depth of 2, and a leaf fraction of 0.001.
+    
+    ▪️ The second Gradient Boosting (Boost2) model was optimized with 150 iterations, maximum branch of 4, maximum depth of 2, and a leaf fraction of 0.001. It achieved the best performance among the tree-based models.
+
+    ▪️ The High-Performance Tree (HP Tree) was set up with a significance level of 0.2, maximum branch of 2, maximum depth of 10, and a minimum leaf size of 5.
+
+    ▪️ The High-Performance Forest (HP Forest) model used 100 trees, a maximum depth of 50, a significance level of 0.05, and a leaf size of 5, with variable importance calculated using the Loss Reduction method.
+
+Neural Network Models:
+
+    ▪️ A Standard Neural Network model was created with an identity activation function, 1 hidden layer consisting of 3 hidden neurons, and ran for 300 iterations.
+
+    ▪️ The first High-Performance Neural Network (HP Neural 1) model had 1 hidden layer, 3 hidden neurons, and ran for 300 iterations with an identity activation function.
+    
+    ▪️ The second High-Performance Neural Network (HP Neural 2) model was built with 6 hidden layers, each having 3 hidden neurons, and ran for 1000 iterations with 4 tries.
+    
+    ▪️ The third High-Performance Neural Network (HP Neural 3) model was more complex, utilizing 10 hidden layers, 3 hidden neurons, and ran for 1000 iterations with 15 tries.
+
+    ▪️ The fourth High-Performance Neural Network (HP Neural 4) model had 10 hidden layers, 3 hidden neurons, and ran for 1000 iterations with 20 tries for further optimization.
 
 
 
@@ -111,6 +140,11 @@ Key steps included:
 
 
 
+
+
+
+
+Hyperparameter tuning was applied across all neural network models to optimize parameters such as iterations, depth, hidden layers, and neurons.
 
 
 
