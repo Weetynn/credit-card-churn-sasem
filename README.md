@@ -185,9 +185,9 @@ Interpretation and Recommendations (Neural Network Models)
 
 Further research is recommended to investigate the differing results between models, particularly the fifth important variable:
 
-    ▪️ Neural Networks identified Total_Relationship_Count as the fifth most important factor.
+    ▪️ Neural Networks identified "Total_Relationship_Count" as the fifth most important factor.
     
-    ▪️ Tree-Based Models (Boost2) identified LOG_Total_Amt_Chng_Q4_Q1 as the fifth most important factor.
+    ▪️ Tree-Based Models (Boost2) identified "LOG_Total_Amt_Chng_Q4_Q1" as the fifth most important factor.
 
     ▪️ This difference suggests further analysis is needed to understand the role each variable plays in predicting churn.
 
