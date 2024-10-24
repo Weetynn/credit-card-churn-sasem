@@ -91,7 +91,7 @@ MultiPlot Analysis explored the relationship between variables and churn. Key fi
     ▪️ Lower credit utilization and fewer transactions were linked to higher churn.
 
 
-#### 📌 2. 4Data Preparation
+#### 📌 2.4 Data Preparation
 
 Key steps included:
 
