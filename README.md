@@ -91,6 +91,25 @@ MultiPlot Analysis explored the relationship between variables and churn. Key fi
     ▪️ Lower credit utilization and fewer transactions were linked to higher churn.
 
 
+#### 📌 Data Preparation
+
+Key steps included:
+
+    ▪️ Logarithmic transformation of skewed variables to improve distribution.
+    
+    ▪️ Feature selection based on the variable worth diagram, removing eight variables with minimal predictive power ("Customer_Age", "Months_on_book", "Gender", "Income_Category", "Education_Level", "Dependent_count", "Marital_Status", "Card_Category").
+    
+    ▪️ Undersampling to balance the dataset, reducing the number of retained customers to match the number of churned customers (1,627 in each group).
+    
+    ▪️ Data partitioning with a 70-30 train-test split to prepare for model building.
+    
+    ▪️ Evaluation: Models are evaluated using metrics such as F1 score, precision, recall, specificity, sensitivity, misclassification rate, and ROC/AUC curve analysis.
+
+
+
+
+
+
 
 
 
