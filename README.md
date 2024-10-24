@@ -141,6 +141,43 @@ Model Comparison:
     ▪️ Among neural networks, the standard neural network model performed best, with a misclassification rate of 9.52% but was outperformed by Boost2 in terms of overall performance.
 
 
+#### 📌  Model Interpretation 
+
+Interpretation and Recommendations (Tree-Based Models):
+
+    ▪️ The Gradient Boosting (Boost2) model was the best-performing tree-based model, with a low misclassification rate and minimal false negatives (27). It showed strong generalization, indicating no overfitting.
+    
+    ▪️ Key variables influencing churn included: "LOG_Total_Trans_Amt", "Total_Trans_Ct", "Total_Revolving_Bal", "LOG_Total_Ct_Chng_Q4_Q1", "LOG_Total_Amt_Chng_Q4_Q1"
+    
+    ▪️ Recommendations: Personalized rewards for high transaction customers, proactive support for declining transaction behavior, improved credit management, and relationship-building incentives.
+
+Interpretation and Recommendations (Neural Network Models)
+   
+    ▪️ The Standard Neural Network model had a higher misclassification rate (0.0952) than Boost2, but it minimized false negatives (48) and generalized well.
+    
+    ▪️ The Neural Network model aligned with Boost2 on the top four churn predictors but differed on the fifth, prioritizing "Total_Relationship_Count" over "LOG_Total_Amt_Chng_Q4_Q1".
+    
+    ▪️ Recommendations: Similar to tree-based models, focusing on personalized rewards, proactive support, and enhancing customer relationships. 
+
+---
+
+### 3.0 Conclusion
+
+#### 📌 Key Findings
+
+    ▪️ The Gradient Boosting (Boost2) model performed the best among all models, with the lowest misclassification rate and a good balance between precision and recall.
+    
+    ▪️ Both tree-based models and neural networks identified the same top four factors influencing churn: "LOG_Total_Trans_Amt", "Total_Trans_Ct", "Total_Revolving_Bal", "LOG_Total_Ct_Chng_Q4_Q1"
+
+#### 📌 Recommendations
+
+    ▪️ Implement personalized rewards for customers with higher transaction volumes and counts to incentivize continued engagement.
+    
+    ▪️ Take proactive action for customers exhibiting changes in transaction behavior, potentially indicating a risk of churn.
+
+    ▪️ Introduce credit management programs to help customers manage revolving balances and avoid excessive churn risks.
+    
+    ▪️ Focus on building stronger relationships with long-standing or frequent customers through tailored benefits and programs.
 
 
 
@@ -150,8 +187,6 @@ Model Comparison:
 
 
 
-
-Hyperparameter tuning was applied across all neural network models to optimize parameters such as iterations, depth, hidden layers, and neurons.
 
 
 
