@@ -110,7 +110,7 @@ Key steps included:
 
 A total of 10 models were developed, including five tree-based models and five neural network models with specific parameter tuning.
 
-Tree-Based Models:
+#### Tree-Based Models:
 
     ▪️ A Decision Tree model was built using a significance level of 0.2, with a maximum branch of 2, maximum depth of 6, and a minimum leaf size of 5.
     
@@ -122,7 +122,7 @@ Tree-Based Models:
 
     ▪️ The High-Performance Forest (HP Forest) model used 100 trees, a maximum depth of 50, a significance level of 0.05, and a leaf size of 5, with variable importance calculated using the Loss Reduction method.
 
-Neural Network Models:
+#### Neural Network Models:
 
     ▪️ A Standard Neural Network model was created with an identity activation function, 1 hidden layer consisting of 3 hidden neurons, and ran for 300 iterations.
 
@@ -134,7 +134,7 @@ Neural Network Models:
 
     ▪️ The fourth High-Performance Neural Network (HP Neural 4) model had 10 hidden layers, 3 hidden neurons, and ran for 1000 iterations with 20 tries for further optimization.
 
-Model Comparison:
+#### Model Comparison:
 
     ▪️ The best-performing model among the tree-based models was Gradient Boosting (Boost2), with a low misclassification rate of 5.53% and high recall for identifying churned customers.
     
