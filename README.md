@@ -77,11 +77,19 @@ Adopts the CRISP-DM framework (Cross-Industry Standard Process for Data Mining),
 
 #### 📌 Exploratory Data Analysis (EDA)
 
-StatExplore was used to examine class and interval variables.
+StatExplore was used to examine class and interval variables:
 
     ▪️ No missing values were found, and most variables follow a normal distribution except for five that showed skewness ("Avg_Open_To_Buy", "Credit_Limit", "Total_Amt_Chng_Q4_Q1", "Total_Ct_Chng_Q4_Q1", "Total_Trans_Amt").
     
     ▪️ Significant class imbalance was noted in the target variable, with 83.93% retained customers and 16.07% churned customers.
+
+
+MultiPlot Analysis explored the relationship between variables and churn. Key findings include:
+
+    ▪️ Customers with higher revolving balances and more frequent transactions tend to have lower churn rates.
+    
+    ▪️ Lower credit utilization and fewer transactions were linked to higher churn.
+
 
 
 
