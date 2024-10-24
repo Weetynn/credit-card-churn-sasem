@@ -51,6 +51,29 @@ Adopts the CRISP-DM framework (Cross-Industry Standard Process for Data Mining),
     
     ▪️ Evaluation: Models are evaluated using metrics such as F1 score, precision, recall, specificity, sensitivity, misclassification rate, and ROC/AUC curve analysis.
 
+---
+
+### 2.0 Solution Development
+
+#### 📌 Data Pipeline in SAS Enterprise Miner
+
+![Screenshot 2024-10-24 141242](https://github.com/user-attachments/assets/35bfb374-51c0-4ae2-8287-679fa97e878f)
+
+    ▪️ The workflow begins with importing the dataset into SAS Enterprise Miner, followed by exploratory data analysis (EDA), data preprocessing, model building, and comparison.
+    
+    ▪️ The data pipeline includes several key steps: data transformation, undersampling, and data partitioning into training and validation sets before modeling and evaluation.
+
+
+#### 📌 Metadata of Dataset
+
+![Screenshot 2024-10-24 141540](https://github.com/user-attachments/assets/d837e206-0aba-4244-8f45-689c9b8016bc)
+
+    ▪️ The dataset consists of 16,998 records and 21 variables, including 1 ID variable, 19 input variables, and 1 binary target variable (Attrition Flag).
+    
+    ▪️ Input variables cover customer demographics, transaction history, and banking relationships (e.g., Total Transaction Count, Credit Limit, Total Revolving Balance).
+    
+    ▪️ A detailed breakdown of the variables (nominal, ordinal, interval) is provided, ensuring a comprehensive understanding of the dataset's structure.
+
 
 
 
